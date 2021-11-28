@@ -1,0 +1,168 @@
+/* = import 960.gs css framework */
+@import url(css/960.gs.css);
+/* 960.gs css framework */
+
+/* ------------------
+ * gobal settings
+ * --------------- */
+body {
+  background: url(images/bg.jpg) top repeat-x;
+  background-color: aliceblue;
+}
+/* ------------------
+ * header
+ * --------------- */
+#header {
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 100%;
+}
+#title {
+  margin-left: 5px;
+  width: 500px;
+  float: left;
+  font-size: 125%;
+}
+#header h5 {
+  color: #fff;
+  font-weight: normal;
+}
+#header img {
+  /* border:5px solid #000; */
+  margin-right: 5px;
+  float: left;
+}
+.imagehover:hover {
+  opacity: 0;
+  filter: alpha(opacity = 0);
+}
+.navlink {
+  line-height: 16px;
+  display: block;
+  padding-left: 57px;
+  height: 53px;
+  text-decoration: none;
+  color: #000;
+  margin-top: 0px;
+}
+h2 {
+  display: block;
+  margin: 0px;
+  font-weight: normal;
+  font-size: 165%;
+}
+a {
+  color: #0066ff;
+  text-decoration: none;
+}
+/* ------------------
+ * container 
+ * --------------- */
+#content table {
+  margin: 0px;
+  width: 100%;
+  border: 0px;
+}
+#hours {
+  table-layout: fixed;
+}
+#hours td {
+  padding: 5px;
+}
+.ttitle td {
+  background-color: rgba(24, 129, 47, 0.664);
+  color: #fff;
+}
+.bgcolor td {
+  background-color: #eeeeee;
+}
+.tablefoot {
+  background-color: rgb(92, 223, 142);
+  width: 100%;
+  height: 5px;
+  margin-top: 0px;
+}
+.lectures {
+  margin-bottom: 5px;
+}
+.date {
+  background-color: rgb(55, 209, 183);
+  color: #fff;
+  width: 32px;
+  height: 32px;
+  padding: 10px;
+  float: left;
+  text-align: center;
+  margin-right: 5px;
+}
+.member {
+  position: relative;
+  background-color: #000;
+  color: #fff;
+  margin-bottom: 5px;
+}
+.member img {
+  margin-right: 5px;
+  border: 5px solid #000;
+  float: left;
+}
+.memberDetail {
+  height: 150px;
+  padding: 5px;
+}
+.links {
+  float: left;
+}
+
+/* ------------------
+ * footer 
+ * --------------- */
+#footer {
+  margin-top: 15px;
+  padding: 15px 0;
+  text-align: center;
+}
+.center {
+  width: 60%;
+  margin-right: 10px;
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(236, 236, 236);
+  float: left;
+}
+.right{
+  width: 20%;
+  margin-right: 10px;
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(19, 146, 72);
+  float: right;
+}
+#centerhead {
+  text-align: center;
+}
+.nametable {
+  border: 1px solid black;
+  border-collapse: collapse;  
+  text-align: center;
+}
+#onetab {
+
+  width: 98%;
+  height: 70px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.bottom{
+	width: 100%;
+	margin-right: 10px;
+	margin-left: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: rgb(19, 90, 5);
+	float: left;
+	color: white;
+}
